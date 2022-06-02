@@ -11,7 +11,7 @@ function SelectField(props) {
 
     return (
         <>
-            <select required className="form-select" defaultValue={props.defaultValueID}
+            <select required className="form-select"
                     name={props.name} onChange={props.onChange} value={props.value}>
 
                 <option value={props.defaultValueID} disabled={props.disableDefault}>

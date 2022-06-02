@@ -16,7 +16,7 @@ import APICommands from "../utils/APICommands";
  */
 function RegistrationForm(props) {
 
-    const [inputs, setInputs] = useState({});
+    const [inputs, setInputs] = useState({city: ''});
     // a reducer to hold all the inputs
 
     /************************/
